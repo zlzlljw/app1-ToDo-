@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>APP</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Poiret+One|Sunflower:300&display=swap');
+</style>
+</head>
+
+<body>
+  <div class="main">
+   <div class="js-clock">
+       <h1>00:00</h1>
+   </div>
+   
+   <form class="js-form form">
+      <div class="greeting">Hi! What's your name?</div>
+       <input class="greeting_box" type="text">
+   </form>
+   <h4 class="js-greetings greetings"></h4>
+   
+   <form class="js-toDoForm">
+      <div class="question">What is your plan today?</div>
+       <input class="question_box" type="text">
+   </form>
+   <ul class="js-toDoList">
+       
+   </ul> 
+   </div>
+   
+   <div class="infoContainer">
+     <div class="temp_box">
+       <i class='fas fa-temperature-low'></i>
+       <span class="js-weather"></span>
+     </div>
+   <br>
+      <div class="loca_box">
+       <i class='fas fa-map-marker-alt'></i>
+       <span class="js-place"></span>
+      </div>
+   </div>
+   
+    <script src="./clock.js"></script>
+    <script src="./greeting.js"></script>
+    <script src="./todo.js"></script>
+    <script src="./bg.js"></script>
+    <script src="./weather.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+</html>
